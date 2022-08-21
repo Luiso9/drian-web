@@ -116,7 +116,7 @@
 
 .features-boxed .item .name {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 8px;
   margin-top: 0;
   color: inherit;
@@ -293,6 +293,21 @@ div#features:hover {
   font-family: Noto Sans JP;
 }
 
-#elaina  {
- 
+.features-boxed .description{
+  position: relative;
+  top: 0px; left: 0px;
+  background-color: var(--link);
+  border-radius: 15px;
+  margin: 5% 0;    
+  width: 8em;
+  height: 2em;
+  line-height: inherit;
+  font-size: 22px;
+  display: inline-block;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: #333;
+  text-decoration: none;
 }
