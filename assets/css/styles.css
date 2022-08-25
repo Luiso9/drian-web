@@ -311,3 +311,11 @@ div#features:hover {
   color: #333;
   text-decoration: none;
 }
+
+h1{
+  font-weight: 50;
+  margin: 0.4em 0;
+  color: var(--text-color);
+  font-family: 'Ubuntu' 'sans-serif;' ;
+}
+h1 { font-size: 25px; }
