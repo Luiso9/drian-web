@@ -1,10 +1,12 @@
 :root {
-  --main-color: #f54254;
+  --main-color: #990000;
   --background: #1d1d1e;
   --secondary: #262626;
   --link: #f54254;
   --text-color: #fff;
-  --secondary-text-color: #dcdcdc;
+  --secondary-text-color: #8f000e;
+  --delay: .5s;
+  --timing: 1s;
 }
 
 /* scroll bar */
@@ -312,10 +314,6 @@ div#features:hover {
   text-decoration: none;
 }
 
-h1{
-  font-weight: 50;
-  margin: 0.4em 0;
-  color: var(--text-color);
-  font-family: 'Ubuntu' 'sans-serif;' ;
+.square{
+  border: 2px solid var(--main-color);
 }
-h1 { font-size: 25px; }
