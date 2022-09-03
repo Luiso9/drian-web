@@ -9,38 +9,39 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
-#outset{  
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: absolute;
+#outset {  
   color: greenyellow;
+  display: absolute;
+  background-color: #121212;
+  border-radius: 25px;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  border: 2px solid #f5425;
   font-size: 0.80em;
-  display: inherit;
+  margin: 10px 30%;
 }
 
-.texth1{ 
-  text-align: center;
-  text-shadow: 0.1em 0.01em black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 50px;
-  color: rgb(255, 166, 0);
+#elaina {
+  position: relative;
+  justify-content: center;
+  background-image: url(https://media3.giphy.com/media/aSMX77Pw75FII/giphy.gif?cid=790b7611d12f7a163d0e094341d3189500c2a02c888b1b74&rid=giphy.gif&ct=g);
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  border-color: white;
+  border-radius: 20px;
+  border-style: 2px solid;
+  filter: brightness(80%);
 }
 
-#text{
-  text-align: center;
-  font-size: 40px;
-  text-shadow: 0.1em 0.01em white;
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#nama {
+  -webkit-text-stroke-color: black;
 }
 
-.necogoyang{
-  position: center;
-  display: block;
-  border: 3px solid #fefffc;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0.05em;
-  width: 20%;
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  color: var(--secondary-text-color);
 }
 
 body {
@@ -78,8 +79,11 @@ body {
     100% { transform: translate(5%,0) }
 }
 
+
+/* footer */
+
 .footer-bawah{
-  position: centere;
+  text-align: center;
   padding: 20px 0;
   padding-top: 67px;
   color: white;
@@ -87,13 +91,10 @@ body {
   
 }
 
+  
+
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
-.hell {
-  text-align: center;
-  font-family: "Noto Sans JP";
-  color: var(--text-color);
-}
 
 .button {
   width: 100px;
@@ -216,13 +217,6 @@ body {
   -moz-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
   left: 0;
-}
-
-.hell.credits {
-  text-align: center;
-  font-family: "Noto Sans JP", sans-serif;
-  color: var(--secondary-text-color);
-  font-size: 13px;
 }
 
 @keyframes open {
