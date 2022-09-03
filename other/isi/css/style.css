@@ -9,7 +9,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
+<<<<<<< HEAD:other/isi/css/style.css
 #outset {  
+=======
+@media (max-width: 767px) {
+  // Style for devices have width <= 767px; 
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  // Style for devices have width >= 768px and <= 1023px;
+}
+@media (min-width: 1024px) {
+  // Style for devices have width >= 1024px;
+}
+
+#outset{  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: absolute;
+>>>>>>> 64bef66725692ba3f8b3f94b24b6522cf2ddb2e1:other/isi/style.css
   color: greenyellow;
   display: absolute;
   background-color: #121212;
