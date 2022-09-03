@@ -8,44 +8,28 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
-<<<<<<< HEAD:other/isi/css/style.css
 #outset {  
-=======
-@media (max-width: 767px) {
-  // Style for devices have width <= 767px; 
-}
-@media (max-width: 1023px) and (min-width: 768px) {
-  // Style for devices have width >= 768px and <= 1023px;
-}
-@media (min-width: 1024px) {
-  // Style for devices have width >= 1024px;
-}
-
-#outset{  
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: absolute;
->>>>>>> 64bef66725692ba3f8b3f94b24b6522cf2ddb2e1:other/isi/style.css
   color: greenyellow;
   display: absolute;
   background-color: #121212;
   border-radius: 25px;
-  padding: 0.5em 1.5em 0.5em 1.5em;
+  padding: 0.5em  1.5em 0.5em 1.5em;
   border: 2px solid #f5425;
   font-size: 0.80em;
   margin: 10px 30%;
 }
 
-#elaina {
+#elaina { /*  background  */
   position: relative;
-  justify-content: center;
-  background-image: url(https://media3.giphy.com/media/aSMX77Pw75FII/giphy.gif?cid=790b7611d12f7a163d0e094341d3189500c2a02c888b1b74&rid=giphy.gif&ct=g);
+  background-image: url(https://giffiles.alphacoders.com/111/111950.gif);
   background-size: cover;
   background-position: center;
   width: auto;
   height: auto;
   border-color: white;
-  border-radius: 20px;
+  border-radius: 25px;
   border-style: 2px solid;
   filter: brightness(80%);
 }
@@ -57,8 +41,32 @@
 .container {
   margin: 0 auto;
   padding: 4rem;
-  color: var(--secondary-text-color);
+  color: white;
+  font-family: 'Fira Mono', monospace;
 }
+
+/*Button*/
+.myButton {
+  box-shadow:inset -1px 1px 1px 1px #676a6b;
+  background-color:transparent;
+  border-radius:13px;
+  border:1px solid #0b0e07;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Times New Roman;
+  font-size:15px;
+  padding:10px 27px;
+  text-decoration:none;
+}
+.myButton:hover {
+  background-color:transparent;
+}
+.myButton:active {
+  border: 1px #000000 solid;
+  top: 1px;
+}
+
 
 body {
   background-color: #111111;
@@ -103,6 +111,7 @@ body {
   padding: 20px 0;
   padding-top: 67px;
   color: white;
+  top: 100vh;
   font-family: 'sans-serif;';
   
 }
@@ -252,7 +261,9 @@ body {
 @keyframes openB {
   0% {
     width: 0px;
-  }
+}
   100% {
     width: 100px;
-  }
+}
+
+
