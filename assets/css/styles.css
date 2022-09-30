@@ -293,6 +293,7 @@ div#features:hover {
   font-size: 0.80em;
   margin: 10px;
   font-family: Noto Sans JP;
+  color: green;
 }
 
 .features-boxed .description{
@@ -316,4 +317,17 @@ div#features:hover {
 
 .square{
   border: 2px solid var(--main-color);
+}
+
+.navbar{
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+}
+
+a.navbar-brand{
+  color: azure;
+  letter-spacing: 2px;
 }
